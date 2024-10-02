@@ -1,0 +1,41 @@
+/* Write your code here */
+body,
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+}
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  background-size: cover;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+button {
+  background-color: transparent;
+  border-width: 0px;
+}
+/* img{
+  height: 50px;
+} */
+p {
+  margin-top: 10px;
+}
+.inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.outer {
+  display: flex;
+}
